@@ -1,0 +1,29 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">     <a href=\"https://github.com/yiisoft\" target=\"_blank\">         <img src=\"https://avatars0.githubusercontent.com/u/993323\" height=\"100px\">     </a>     <h1 align=\"center\">Yii 2 Basic Project Template</h1>     <br> </p>",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test",
+    "migrate": "migrate.sh && yii migrate/fresh && yii migrate/create create_users_table --fields=username:string(255):unique,password:string(255),authKey:string(255),accessToken:string(255) && yii migrate && yii migrate/down && yii migrate/up && yii adduser",
+    "dev": "gulp"
+  },
+  "author": "Ivan Volkov aka oOLokiOo <ivan.volkov.older@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-less": "^4.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-util": "^3.0.8",
+    "gulp.spritesmith": "^6.9.0",
+    "less": "^3.9.0"
+  }
+}

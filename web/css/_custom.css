@@ -1,0 +1,330 @@
+/*
+TODO: Use Bootstrap4 with LESS here!;
+*/
+
+/*
+	COMMON
+*/
+#yii-debug-toolbar {
+    display: none !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.pl-0 {
+	padding-left: 0 !important;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.w-100 {
+	width: 100% !important;
+}
+
+.pull-left {
+	float: left !important;
+}
+
+.pull-right {
+	float: right !important;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.row .col-sm-4 img {
+    width: 100%;
+    border: 1px solid #333;
+}
+
+.row  .col-sm-4 img:hover {
+    cursor: pointer;
+}
+
+.row  .col-sm-4 {
+    padding: 10px 5px;
+}
+
+code {
+    padding: 5px;
+    border: 1px dotted #999;
+}
+
+h1, .h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.display-flex-center {
+    display: flex;
+    align-items: center;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/*
+	MAIN
+*/
+.slogan {
+	margin-top: 10px;
+}
+
+.slogan-head {
+    height: 150px;
+    background: url(../images/jumbotron-head-bg.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.slogan-head .page-title {
+    background-color: #424146;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 34px;
+    color: #ffea00;
+}
+
+.slogan-head p {
+    font-size: 19px;
+}
+
+.slogan .col-sm-10 {
+	text-align: center;
+}
+
+.wrap,
+header,
+main,
+.navbar-default {
+    background-color: #f6f6f6;
+    border: 0;
+}
+
+.navbar-nav {
+    position: relative;
+    margin: 0;
+}
+
+.navbar-nav-top {
+    margin-top: 48px;
+}
+
+.navbar-nav-top > li > a {
+    font-weight: 0;
+    text-transform: uppercase;
+}
+
+.navbar-nav-middle {
+}
+
+.copy .navbar {
+	position: static;
+}
+
+.navbar-nav-middle > li > a {
+    font-weight: 500;
+}
+
+.navbar-brand {
+    height: auto;
+}
+
+.navbar .navbar-collapse .navbar-nav-middle > .active > a,
+.navbar .navbar-collapse .navbar-nav-middle > .active > a:hover,
+.navbar .navbar-collapse .navbar-nav-middle > .active > a:focus,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #ffea00;
+    color: #000;
+}
+
+.navbar-header,
+.navbar-default,
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav > li {
+    margin: 0 12px;
+}
+
+.navbar-default .navbar-nav-middle > li {
+    margin: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #999;
+}
+
+/*
+	FOOTER
+*/
+.black-bg {
+	background-color: #000;
+}
+
+.black-bg:has( .copy ) {
+    background-color: #000;
+}
+
+footer,
+footer input {
+    background-color: #414146;
+}
+
+footer a.ye {
+	color: #ffea00;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 12px;
+	color: #fff;
+	font-size: 10px;
+}
+
+footer b {
+	font-size: 12px;
+	font-weight: 500;
+	margin-bottom: 10px;
+	display: block;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+footer input {
+	border: 0;
+	border-bottom: 2px solid #ffea00;
+	margin: 8px 0 0 -5px;
+}
+
+footer .container {
+	background-color: #000;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+footer .container ul.navbar-nav-bottom > li > a {
+	color: #fff;	
+}
+
+footer .copy {
+    background-color: black;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+footer .copy p {
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+footer .copy .container,
+header .display-flex-center .container {
+	width: 100%;
+}
+
+footer .lasted ul.tweets li,
+footer .contact ul li {
+    margin-left: -40px;
+    padding-left: 40px;
+}
+
+footer .row  .col-sm-4 {
+	padding: 1px;
+}
+
+footer .contact ul li {
+	padding-bottom: 10px;
+}
+
+footer .contact ul li:first-child {
+	background: url(../images/icon-addres.jpg) no-repeat left top;
+}
+
+footer .contact ul li:nth-child(2) {
+	background: url(../images/icon-phone.jpg) no-repeat left top;
+}
+
+footer .contact ul li:nth-child(3) {
+	background: url(../images/icon-email.jpg) no-repeat left top;
+}
+
+footer .contact button {
+	width: 30px;
+	height: 30px;
+	background: url(../images/icon-follow.jpg) no-repeat left top;
+	margin-left: 5px;
+}
+
+footer .lasted ul.tweets li {
+	background: url(../images/icon-tw.png) no-repeat left top;
+}
+
+footer .lasted ul.list-inline > li {
+	margin: 0;
+	padding: 0;
+}
+
+footer .about a {
+	background-color: #000;
+	border: 0;
+	border-bottom: 2px solid #ffea00;
+	padding: 10px;
+	color: #fff;
+	border: 0;
+	border-bottom: 2px solid #ffea00;
+	margin-bottom: 20px;
+}
+
+footer .about a:hover {
+    
+}
+
+/*
+	MEDIA
+*/
+@media screen and (min-width: 768px) {
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+  }
+
+  .jumbotron,
+  .container-fluid .jumbotron {
+    margin: 0;
+    padding: 20px 0 10px 0;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0;
+  }
+}
