@@ -16,13 +16,14 @@ cd Test-Task--Yii2-
 - From root project folder - run:
 ```
 composer install
+npm install
 ```
 - Setup DB config & run migrations:
 edit - **"/config/db.php"** and from root project folder - run:
 ```
 npm run migrate
 ```
-- Add test Data to DB (for editable ajax table, by task requires)
+- Add test Data to DB (for editable ajax table, by task requires)<br />
 From root project folder, repeatedly - run:
 ```
 yii adduser
@@ -33,6 +34,7 @@ yii adduser
 npm run dev
 ```
 
+<br />
 <p>
 Add the project to VHosts your web server and run it in Browser.
 Test it and Enjoy! ;)
