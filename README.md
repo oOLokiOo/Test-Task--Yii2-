@@ -1,15 +1,12 @@
-# Test Task (Based on Yii2 Framework + Composer, NPM, Bootstrap, LESS, Gulp)
+# Yii2 - CustomModule-Portfolio (_test task_)
+
+Based on Yii2 Framework + Composer, NPM, Bootstrap, LESS, Gulp
 
 *@author Ivan Volkov aka oOLokiOo <ivan.volkov.older@gmail.com>*
 
 REQUIREMENTS & INSTALLING
 -------------------------
 
-- Clone the Project from Github:
-```
-git clone https://github.com/oOLokiOo/Test-Task--Yii2-.git
-cd Test-Task--Yii2-
-```
 - Install **Composer** for your OS - https://getcomposer.org/download/ 
 - Install **Node.js** & **NPM** for your OS - https://www.npmjs.com/get-npm/ 
 - Project based on **"yii2-app-basic"** - https://github.com/yiisoft/yii2-app-basic/ (from Documentaion - https://www.yiiframework.com/doc/guide/2.0/en/start-installation)
@@ -34,11 +31,7 @@ yii adduser
 npm run dev
 ```
 
-<br />
-<p>
-Add the project to VHosts your web server and run it in Browser.
-Test it and Enjoy! ;)
-</p>
+---
 
 Links for test:<br />
 /index.php (Slicing + custom jQuery effect)<br />
