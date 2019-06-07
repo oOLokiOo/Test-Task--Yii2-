@@ -31,6 +31,12 @@ yii adduser
 npm run dev
 ```
 
+<br />
+<p>	
+Add root /web folder of the project to VHosts of your web server and run it in Browser.	
+Test it and Enjoy! ;)	
+</p>
+
 ---
 
 Links for test:<br />
